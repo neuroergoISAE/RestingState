@@ -15,7 +15,7 @@ outlet = lsl_outlet(info);
 
 %% PARTICIPANT
 %provide an acronym for your project (the participants will be named after
-%it).
+%it)
 project_acronym = 'ProjectName';
 %Participant name, surname & ID
 p_app  = Participant(true,project_acronym,data_path);
