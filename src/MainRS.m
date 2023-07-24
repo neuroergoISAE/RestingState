@@ -6,8 +6,8 @@
 
 %% PATH
 data_path = fullfile(fileparts(pwd),'DATA'); %Change to your path
-lslapps_path = "path_to-liblsl-Matlab-master"; %Inform the path of Apps folders (LabRecorder, BioSemi, Keyboard if needed,...)
-addpath(genpath(lslapps_path));
+%addpath(genpath("path_to-liblsl-Matlab-master"));
+%lslapps_path = "path-to-apps" ;%Inform the path of Apps folders (LabRecorder, BioSemi, Keyboard if needed,...)
 %% RS Matlab  markers lsl
 lib = lsl_loadlib();
 info = lsl_streaminfo(lib,'MatlabMarkerStream','Markers',1,0,'cf_string','IDmatalb');
